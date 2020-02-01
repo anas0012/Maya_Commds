@@ -1,0 +1,5 @@
+commandPort -n "localhost:7001" -stp "mel" -echoOutput;
+
+
+
+

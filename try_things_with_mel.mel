@@ -1,0 +1,9 @@
+file -f -new;
+
+file -f -options "v=0;"  -ignoreVersion  -typ "mayaBinary" -o "E:/Courses/Projects_Folder/Maya/00-Tantawy_Course/scenes/scene_03.mb";addRecentFile("E:/Courses/Projects_Folder/Maya/00-Tantawy_Course/scenes/scene_03.mb", "mayaBinary");
+
+polyCube -w 1 -h 1 -d 1 -sx 1 -sy 1 -sz 1 -ax 0 1 0 -cuv 4 -ch 1;
+select -r pPipe1 ;
+select -r pCube1 ;
+select -r pCylinder1 ;
+select -r pCylinder1 pPipe1 pCube1 ;
